@@ -1,0 +1,18 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "yayamei",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.24"
+  },
+  "dependencies": {
+    "vitepress-plugin-search": "^1.0.4-alpha.20"
+  }
+}
